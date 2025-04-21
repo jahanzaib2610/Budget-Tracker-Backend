@@ -52,6 +52,9 @@ let transactions = [
   }
 ];
 
+app.get('/api/transactions', (req, res) => {
+  res.send("Welcome...!!!");
+});
 // GET all transactions
 app.get('/api/transactions', (req, res) => {
   res.json(transactions);
