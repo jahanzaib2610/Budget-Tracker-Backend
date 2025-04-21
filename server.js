@@ -52,7 +52,7 @@ let transactions = [
   }
 ];
 
-app.get('/api/transactions', (req, res) => {
+app.get('/', (req, res) => {
   res.send("Welcome...!!!");
 });
 // GET all transactions
